@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/almost_white_background"
+  android:paddingTop="5dp"
+  android:paddingBottom="5dp"
+  android:minWidth="450dp"
+  android:minHeight="200dp"
+  >
+    
+  <TextView 
+    android:id="@+id/en_help_title"
+    style="@style/RegMedium"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"        
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp"
+    android:background="@drawable/almost_white_background"
+    android:textColor="@drawable/dark_blue_d1"
+    android:text="Screen Explanation"
+    android:visibility="gone"/>
+
+  <TextView
+    android:id="@+id/es_help_title"
+    style="@style/RegMedium"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp"
+    android:background="@drawable/almost_white_background"
+    android:textColor="@drawable/dark_blue_d1"
+    android:text="Explicación de Pantalla"/>
+   
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="@drawable/dark_blue"/>
+  
+  <ScrollView
+    android:id="@+id/scrollview"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarSize="30dp"
+    android:fadeScrollbars="false"
+    android:layout_weight="1"
+    android:paddingBottom="10dp"
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp"
+    android:background="@drawable/almost_white_background">
+  
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingRight="14dp">
+      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/english_explanation"
+        android:visibility="gone">
+        <TextView
+          android:id="@+id/en_download_instructions"
+          style="@style/RegMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"/>
+
+        <TextView
+          android:id="@+id/en_delete_song_instructions"
+          style="@style/RegMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"/>
+
+        <TextView
+          android:id="@+id/en_song_info_instructions"
+          style="@style/RegMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"/>
+
+        <TextView
+          android:id="@+id/en_display_lyrics_differently_instructions"
+          style="@style/RegMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"/>
+
+        <TextView
+          android:id="@+id/en_start_song_instructions"
+          style="@style/RegMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:text="To start a song, click it."/>
+      </LinearLayout>
+
+      <LinearLayout
+        android:id="@+id/spanish_explanation"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_marginTop="10dp">
+        <TextView
+          android:id="@+id/es_download_instructions"
+          style="@style/RegMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"/>
+
+        <TextView
+          android:id="@+id/es_delete_song_instructions"
+          style="@style/RegMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"/>
+
+        <TextView
+          android:id="@+id/es_song_info_instructions"
+          style="@style/RegMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"/>
+
+        <TextView
+          android:id="@+id/es_display_lyrics_differently_instructions"
+          style="@style/RegMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"/>
+
+        <TextView
+          android:id="@+id/es_start_song_instructions"
+          style="@style/RegMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Para empezar una canción oprima la canción."
+          android:layout_marginTop="10dp"/>
+      </LinearLayout>
+
+    </LinearLayout>
+  </ScrollView>
+
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="9dp"
+    android:paddingRight="5dp">
+    <Button 
+      android:id="@+id/btn_ok"
+      style="@style/RegMedium"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/terminado"
+      android:layout_weight="1">
+    </Button>
+    
+    <Button 
+      android:id="@+id/btn_language"
+      style="@style/RegMedium"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"      
+      android:text="English"
+      android:layout_weight="1">
+    </Button> 
+    
+  </LinearLayout>
+
+</LinearLayout>
+		

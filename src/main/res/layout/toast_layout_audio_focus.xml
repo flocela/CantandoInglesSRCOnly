@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/toast_layout_root"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:background="@drawable/dark_blue_rounded_5"
+              >
+              <TextView android:id="@+id/text_label"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:textColor="#222"
+              style="@style/RegMedium"
+              android:text="No puedo obtener el enfoque de audio."
+              />
+              <TextView android:id="@+id/text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#222"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:text="Otra aplicación está utilizando el audio."
+              style="@style/RegMedium"
+              />
+</LinearLayout>

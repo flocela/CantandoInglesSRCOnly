@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_height="wrap_content"
+  android:layout_width="wrap_content"
+  android:background="@drawable/almost_white_background"
+  android:paddingTop="5dp"
+  android:paddingBottom="5dp"
+  android:minWidth="450dp"
+  android:minHeight="200dp"
+  >
+    
+  <TextView 
+    android:id="@+id/title"
+    style="@style/RegLargeMedium"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"    
+    android:paddingBottom="5dp"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp"
+    android:text="Preferencias"
+  />
+   
+  <View
+    android:layout_width="wrap_content"
+    android:layout_height="2dp"
+    android:background="@drawable/dark_blue"  
+  />
+  
+  <ScrollView
+    android:id="@+id/scrollview"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarSize="30dp"
+    android:fadeScrollbars="false"
+    android:layout_weight="1"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp"> 
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp">
+        <TextView
+          android:id="@+id/pref_view_title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="22sp"
+          android:text="Vista de Pantalla"/>
+        <RadioGroup
+          android:id="@+id/one_lyric_view_group"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_below="@+id/pref_view_title">
+          <RadioButton
+            android:id="@+id/one_lyric_view_pref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enfoque en cada palabra"
+            android:textSize="20sp"/>
+          <RadioButton
+            android:id="@+id/list_view_lyric_pref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista de letra de canción"
+            android:textSize="20sp"/>
+        </RadioGroup>
+      </RelativeLayout>
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/dark_blue"
+        />
+
+    </LinearLayout>
+  </ScrollView>
+    
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="9dp"
+    android:paddingRight="5dp"
+    android:layout_marginTop="15dp">
+    <Button 
+      android:id="@+id/btn_ok"
+      style="@style/RegMedium"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/confirmar"
+      android:layout_weight="1">
+    </Button>
+		
+    <Button 
+      android:id="@+id/btn_cancel"
+      style="@style/RegMedium"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/cancelar"
+      android:layout_weight="1">
+    </Button>	
+		
+  </LinearLayout>
+  
+</LinearLayout>
+		

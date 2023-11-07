@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <ListPreference
+    android:key="pref_lyrics_view"
+    android:title="Tipo de Pantalla"
+    android:dialogTitle="Escoja el Tipo de Pantalla"
+    android:entries="@array/lyric_view_types"
+    android:entryValues="@array/lyric_view_types_values"
+    android:defaultValue="2" />
+  <CheckBoxPreference
+    android:key="download_first_song_prompt"
+    android:title="Download First Song Prompt"
+    android:summary="Download First Song Prompt"
+    android:defaultValue="true" />
+  <CheckBoxPreference
+    android:key="download_instructions_prompt"
+    android:title="Download Instructions Prompt"
+    android:summary="Download Instructions Prompt"
+    android:defaultValue="true" />
+  <CheckBoxPreference
+    android:key="start_song_instructions_prompt"
+    android:title="Download Instructions Prompt"
+    android:summary="Download Instructions Prompt"
+    android:defaultValue="true" />
+  <EditTextPreference
+    android:key="scroll_speed"
+    android:title="Rapidez De Desplazarse"
+    android:summary="Para Avanzar Palabras en Lista"
+    android:defaultValue="11"/>
+</PreferenceScreen>

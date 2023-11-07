@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+  <item android:id="@+id/action_scroll_word_list"
+        android:icon="@drawable/ic_menu_scroll_speed"
+        android:title="Rapidez De Desplazarse"
+        android:showAsAction="always"
+    />
+  <item android:id="@+id/action_help_word_list"
+        android:icon="@drawable/ic_menu_help"
+        android:title="Explicación de la Pantalla"
+        android:showAsAction="always" />
+  <item android:id="@+id/action_long_click_expl"
+        android:icon="@drawable/ic_radio_button_checked_white_24dp"
+        android:title="Control de la Canción"
+        android:showAsAction="ifRoom" />
+
+</menu>

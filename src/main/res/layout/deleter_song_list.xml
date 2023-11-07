@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingLeft="15dp"
+  android:paddingRight="10dp"
+  android:paddingTop="9dp"
+  android:background="@drawable/almost_white_background">
+  <TextView android:id="@+id/download_header"
+    android:text="Borrar Una Cancio\u0301n"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"  
+    style="@style/RegMedium"/>
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="@drawable/dark_blue" 
+  />
+  <ListView android:id="@android:id/list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:drawSelectorOnTop="false"/>
+</LinearLayout>

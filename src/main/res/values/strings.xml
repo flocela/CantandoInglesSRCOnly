@@ -1,0 +1,286 @@
+<resources>
+
+<!-- Title Strings -->
+<string name="app_name">Cantando Ingle\u0301s</string>
+<string name="app_name_lowercase">cantandoingle\u0302s</string>
+<string name="aceptar">Aceptar</string>
+<string name="cancelar">Cancelar</string>
+<string name="terminado">Cerrar</string>
+<string name="bien">Bien</string>
+<string name="confirmar">Confirmar</string>
+<string name="ok">Ok</string>
+
+<string name="help_title_english">
+  Help
+</string>
+
+<string name="help_title_spanish">
+  Preguntas
+</string>
+
+<string name="en_normal_explanation_one_a">The english words on the left are translated to spanish literally.
+</string>
+<string name="en_normal_explanation_two_a">
+  For each english word there is a direct translation in spanish.
+</string>
+<string name="sp_normal_explanation_one_a">Por cada palabra en inglés hay una palabra en español en el rectángulo derecho.
+</string>
+
+<string name="en_normal_explanation_one_b">The english word on top is translated to spanish literally.</string>
+<string name="sp_normal_explanation_one_b">Por cada palabra en inglés hay una palabra en español en el rectángulo abajo.
+</string>
+
+<string name="en_meaning_explanation_one_a">Sometimes a word can have a different meaning
+  than its literal translation. For example, the words \'this stinks\' translate to \'this smells bad\'. However,
+  the song is trying to convey \'this is harsh\'.
+</string>
+<string name="en_meaning_explanation_two_a">Click on rectangles containing an inverted triangle to see
+  the intended meaning of a word.
+</string>
+<string name="en_meaning_explanation_two_b">In that case the intended meaning of the word is shown below the literal spanish translation.</string>
+
+<string name="sp_meaning_explanation_one_a">Dependiendo de el contexto, una palabra puede tener un significado diferente que la traducción literal.
+  Por Ejemplo: Las palabras \'this stinks\' se traducen en \'esto apesta\'. Pero, la canción quiere comunicar \'esto es difícil\'.
+</string>
+<string name="sp_meaning_explanation_two_a">Haz clic en los rectángulos conteniendo un triángulo para ver el significado en contexto.
+</string>
+<string name = "sp_meaning_explanation_two_b">El significado en el contexto aparece abajo de la traducción literal.</string>
+
+<string name="en_correction_explanation_one_a">Sometimes a song is using an older english word, that is
+not very common anymore or is using an english word incorrectly. In these cases
+tap on the english rectangles containing a lightning symbol to see the more
+modern word or the corrected english word.
+</string>
+<string name="en_correction_explanation_one_b">Sometimes a song is using an older english word, that is
+not very common anymore or is using an english word incorrectly. In these cases a modern word or the corrected english word will
+be shown above the english lyric.
+</string>
+<string name="sp_correction_explanation_one_a">A veces el artista usa una palabra antigua o incorrectamente. En esos
+  casos haz clic en los rectángulos conteniendo el símbolo de rayo para ver una palabra mas apropiada o corregida.
+</string>
+<string name="sp_correction_explanation_one_b">A veces el artista usa una palabra antigua o usa la palabra incorrectamente. En esos
+  casos una palabra mas apropiada o corregida se encuentra arriba de la palabra original en inglés.
+</string>
+
+<string name="en_parenthesis_explanation_a">
+  An extra word may be added to the spanish translation to make it more fluid. The extra word will be in parenthesis.\nExample: \'Now don\'t forget.\' translates
+  directly to \'Ahora no olvides\', but \'Ahora no (te) olvides.\' sounds better.\nNotice the english word for \'te\' is not in the
+  original lyrics.
+</string>
+<string name="sp_parenthesis_explanation_a">
+  Una palabra puede ser agregada para hacer la traducción a español mas fluida. Esta palabra se muestra entre paréntesis.
+  \nPor ejemplo: \'Now don\'t forget.\' se traduce en \'Ahora no olvides\'.\nPero agrego \'(te)\' que no esta en el inglés y es mas fluido, \'Ahora no (te) olvides.\'
+</string>
+
+
+<string name="en_plus_explanation_a">
+  When two words in english combine to mean one word in spanish, the two words in english will have a \'+\'
+  sign connecting them.\nFor example: \'I would+say that.\' translates to \'Yo diría eso.\'\n\'would+say\' combines to mean \'diría\'.\nNote sometimes there is an adjective between the two words, which separates them, but they still combine to mean
+  one spanish word. In that case both words will show up with the \'+\' between them, but one word will be in parenthesis. The word in parenthesis
+  does exist in the original lyrics, but because it has been moved to be closer to its partner word it is in parenthesis.
+  \nExample: \'That would never be.\' translates to \'Eso nunca será.\'\n\'would+be\' are the two combining words but are seperated by \'never\'.
+  \nThis would be shown as:\n\'would+(be)\' = \'será\'\n
+  \'never\' = \'nunca\'\n\'(would)+be\' = \'será\'
+</string>
+<string name="sp_plus_explanation_a">
+Dos palabras con un \'+\' entre ellas se combinan para hacer una palabra en la traducción. En este caso una palabra en español sustituye por
+dos palabras en inglés.\nPor ejemplo: \'I would+say that.\' se traduce en \'Yo diría eso.\'\n\'would+say\' se traduce en \'diría\'.
+\nNota que a veces hay un adjetivo separando las dos palabras que se combinan. En este caso una de las palabras se presenta entre paréntesis para
+demonstrar que no esta en su lugar original. Por ejemplo:
+ \n\'That would never be.\' se traduce en \'Eso nunca será.\'\n\'would+be\' son las dos palabras que se combinan pero estan separadas por el adjetivo, \'never\'.
+  \nEntonces se muestra:\n\'would+(be)\' &#160;es&#160; \'será\'\n\'never\' &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;es&#160; \'nunca\'\n\'(would)+be\' &#160;es&#160; \'será\'
+</string>
+
+<string name="intro_help_english">Symbols added to bridge the translation:
+</string>
+
+<string name="intro_help_spanish">Símbolos  agregados a la traducción:
+</string>
+
+
+
+<string name="case_one_intro_english">
+Case 1. There is a direct translation of each english word to a spanish word, 
+but the spanish translation would be more fluid if a spanish word were added.
+</string>
+<string name="case_one_intro_spanish">
+Caso 1. Por cada palabra en inglés hay una palabra directa en español, pero
+la traducción en español es mas fluida con una palabra agregada.
+</string>
+
+<string name="example_english">
+Example:
+</string>
+<string name="example_spanish">
+Ejemplo:
+</string>
+
+<string name="examples_english">
+Examples:
+</string>
+<string name="examples_spanish">
+Ejemplos:
+</string>
+
+<string name="case_one_english">
+Now\ndon\'t\nforget
+</string>
+
+<string name="case_one_spanish">
+Ahora\nno\n(te) olvides
+</string>
+
+<string name="case_one_note_english">
+Notice: The word \'te\' in parenthesis is added to the spanish 
+translation although it was not in the original english words.
+</string>
+
+<string name="case_one_note_spanish">
+Nota: La palabra \'te\' en paréntesis está agregada a la traducción en español,
+aunque no se encuentra en las palabras originales en inglés.
+</string>
+
+<string name="case_two_intro_english">
+Case 2. Two english words
+with a \'+\' between them means that those two words can be replaced by one spanish word.\nSometimes
+there are adjectives in between the two words with plus signs, those are just adjectives,
+they do not add together to equal the one spanish word.
+</string>
+
+<string name="case_two_intro_spanish">
+Caso 2. Dos palabras en inglés con un \'+\' entre ellas significa que las
+dos palabras combinadas son lo mismo que una palabra en español. Una palabra en español sustituye por las 
+dos palabras combinadas en inglés.\nA veces hay adjetivos entre las dos 
+palabras con \'+\'s, son solamente adjetivos, no se combinan para sustituir la
+palabra en español.
+</string>
+
+<string name="case_two_a_english">
+I\nwould+say\nthat.
+</string>
+
+
+<string name="case_two_a_spanish">
+Yo\ndiría\neso.
+</string>
+
+<string name="case_two_b_english">
+The\nearth\nshall+\nsoon\n+dissolve.
+</string>
+
+
+<string name="case_two_b_spanish">
+La\ntierra\ndisolverá.\npronto\ndisolverá.
+</string>
+
+<string name="case_two_b_note_english">
+Note, the words \'shall\' and \'dissolve\' combine to equal \'disolverá\'. 
+</string>
+
+<string name="case_two_b_note_spanish">
+Nota, la palabra \'disolverá\' sustituye para las palabras \'shall\' y \'dissolve\' combinadas.	
+</string>
+
+
+<string name="case_three_intro_english">
+Case 3. ^[ ] signals that the artist is using a word that is no longer used in
+today\'s english and another word should be used instead. The word after the \'^\' 
+should not be used. The word inside the brackets should be used to replace the word.
+</string>
+
+<string name="case_three_intro_spanish">
+Caso 3. ^[ ] significa que el artista está usando una palabra antigua, y ya
+no se usa. La palabra despues del \'^\' no debe de ser usada. La palabra 
+entre los \'[ ]\' debe de ser usada en vez de la palabra original.
+</string>
+
+<string name="case_three_english">
+Radiant\nbeams\nfrom\nThy [Your]\nholy\nface.
+</string>
+
+<string name="case_three_spanish">
+Radiante\nrayos\nde\nSu\nsanta\ncara.
+</string>
+<string name="case_three_note_english">
+Notice, \'Thy\' is not appropriate, today we use the word \'Your\'. 
+</string>
+
+<string name="case_three_note_spanish">
+Nota, \'Thy\' no es adecuada, ahora usamos la palabra \'Your\'. 
+</string>
+
+<string name="case_four_intro_english">
+Case 4. [ ] in english signals that there is a better word the artist 
+could have used, maybe a more modern word or that the artist is 
+using the word slightly incorrectly. The word inside the brackets 
+would be a better word.
+</string>
+
+<string name="case_four_intro_spanish">
+Caso 4. [ ] en las palabras de inglés significa que el artista pudiera
+haber usado otra palabra mejor. Puede ser que haya una palabra mas moderna o que el artista
+no está usando la palabra correctamente en este contexto. Nota, que la
+palabra todavia se usa en inglés, pero puede ser que en este
+contexto no está completamente correcta. La palabra entre \'[ ]\'
+es una palabra mejor.
+</string>
+
+<string name="case_four_english">
+The\nsun\nforbear [cease]\nto\nshine.
+</string>
+
+<string name="case_four_spanish">
+El\nsol\ncesará\nde\nbrillar.
+</string>
+<string name="case_four_note_english">
+Notice, \'forbear\' which the artist uses is still used today, 
+but \'cease\' is more common. 
+</string>
+
+<string name="case_four_note_spanish">
+Nota, \'forbear\', la palabra que está usando el artista todavia
+se usa en estos tiempos, pero \'cease\' is mas comun.
+</string>
+
+<string name="case_five_intro_english">
+Case 5. [ ] in spanish means that the literal translation is missing something
+in its meaning or is incorrect in this context. It is better 
+to replace the literal spanish word with the spanish word in the brackets.
+</string>
+
+<string name="case_five_intro_spanish">
+Caso 5. [ ] en la traducción en español significa que la traducción literal
+está un poco incompleta o no está correcta en este contexto. 
+La traducción literal está mostrada, pero en este contexto la palabra
+en \'[ ]\' es mejor o mas fluida.
+</string>
+
+<string name="case_five_english">
+There\'s\njust\ndirt\nto\ndish.
+</string>
+
+<string name="case_five_spanish">
+Hay\nsolamente\ntierra  [tierra con basura]\na [para]\nservir.
+</string>
+<string name="case_five_note_english">
+Notice, \'tierra\' is the direct translation of dirt, but in this context
+the artist means muck, or \'tierra con basura\'. Also the direct translation
+of \'to\' is \'a\', but in spanish \'para\' makes more sense. 
+</string>
+
+<string name="case_five_note_spanish">
+Nota, \'tierra\' es la traducción literal de \'dirt\', pero en este contexto
+el artista se refiere a \'tierra con basura\' no solamente tierra. También
+la traducción literal de \'to\' es \'a\', pero en español en este
+contexto \'para\' es mas correcto. 
+</string>
+
+<!-- File/Folder Name Strings -->
+<!-- Folder names start with no slash and end with a slash. -->
+<string name="folder_media_to_cantandoingles">media/audio/cantandoingles/</string>
+<item type="id" name="CP_ROW_ID"/>
+<item type="id" name="CP_ORIG_ARTIST"/>
+<item type="id" name="CP_NEW_WORK_TITLE"/>
+<item type="id" name="CP_ORIG_ENGLISH_TITLE"/>
+<item type="id" name="CP_ZIP_SIZE"/>
+</resources>

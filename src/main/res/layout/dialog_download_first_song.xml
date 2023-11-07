@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_height="wrap_content"
+  android:layout_width="300dp"
+  android:background="@drawable/white_background_for_dialogs"
+  android:paddingTop="15dp"
+  android:paddingBottom="15dp"
+  android:paddingLeft="10dp"
+  android:paddingRight="10dp"
+  android:minWidth="350dp"
+  android:minHeight="100dp"
+  >
+    <TextView 
+      android:id="@+id/download_first_song_spanish"
+      style="@style/RegMedium"
+      android:textColor="@drawable/dark_blue_for_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"    
+      android:paddingBottom="10dp"
+      android:text="Descarga tu primera cancio\u0301n!"
+    />
+    
+     <TextView 
+      android:id="@+id/download_first_song_english"
+      style="@style/RegSmall"
+      android:textColor="@drawable/dark_blue_for_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"    
+      android:paddingBottom="5dp"
+      android:text="Download Your First Song!"
+    />
+  
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp">
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+      >
+        <ImageButton
+          android:id="@+id/btn_ok"
+          style="@style/RegMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:src="@drawable/ic_download_button"
+          android:background="@drawable/dark_blue"
+          android:paddingLeft="15dp"
+          android:paddingRight="15dp"
+          android:scaleType="fitCenter"
+          android:adjustViewBounds="true"
+          android:layout_marginRight="12dp">
+        </ImageButton>
+
+        <Button
+          android:id="@+id/btn_cancel"
+          style="@style/RegMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/cancelar"
+          android:paddingLeft="15dp"
+          android:paddingRight="15dp"
+          android:background="@drawable/dark_blue"
+          android:layout_marginLeft="12dp"
+          android:textColor="@drawable/almost_white_background">
+        </Button>
+      </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+		

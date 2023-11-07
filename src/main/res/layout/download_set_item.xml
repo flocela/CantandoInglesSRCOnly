@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:background="@drawable/white"
+							android:paddingTop="4dp"
+							android:paddingBottom="4dp"
+	>
+	<TextView
+		android:id="@+id/difficulty"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/white"
+		android:paddingTop="6dp"
+		android:paddingBottom="6dp"
+		android:paddingLeft="4dp"
+		android:paddingRight="10dp"
+		style = "@style/RegSmall"
+		android:layout_gravity="center_horizontal"
+		android:ellipsize="end"
+		android:layout_weight="0"/>
+	<TextView 
+  android:id="@+id/row_entry"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@drawable/white"
+  android:paddingTop="6dp"
+  android:paddingBottom="6dp"
+  android:paddingLeft="4dp"
+  android:paddingRight="4dp"
+  style = "@style/RegSmall"
+  android:layout_gravity="center_horizontal"
+  android:singleLine="true"
+  android:ellipsize="end"
+  android:layout_weight="1">
+</TextView>
+</LinearLayout>
+

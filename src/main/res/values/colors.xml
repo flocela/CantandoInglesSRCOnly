@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <drawable name="dark_blue">#61819f</drawable>
+  <drawable name="dark_blue_d1">#57748f</drawable>
+  <drawable name="light_blue">#8fadd2</drawable>
+  <drawable name="white">#fff</drawable>
+  <drawable name="almost_white_background">#ebebeb</drawable>
+  <drawable name="dark_blue_for_text">#445a6f</drawable>
+  <drawable name="white_background_for_dialogs">#D8D4CF</drawable>
+  <drawable name="grey">#818687</drawable>
+  <drawable name="dark_pink">#b294b2</drawable>
+  <drawable name="light_pink">#d4c4d4</drawable>
+</resources>

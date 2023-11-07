@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:background="@drawable/almost_white_background"
+              android:paddingTop="0dp"
+              android:paddingBottom="0dp"
+              android:minHeight="200dp"
+              android:gravity="center_horizontal|fill_vertical">
+
+  <TextView
+    android:id="@+id/title"
+    style="@style/RegLargeMedium"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp"
+    android:text="Preferencias"
+    />
+
+  <View
+    android:layout_width="wrap_content"
+    android:layout_height="2dp"
+    android:background="@drawable/dark_blue"
+    />
+
+  <ScrollView
+    android:id="@+id/scrollview"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarSize="30dp"
+    android:fadeScrollbars="false"
+    android:layout_weight="1"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp">
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp">
+        <TextView
+          android:id="@+id/pref_view_title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="22sp"
+          android:text="Rapidez en desplazarse hacia arriba las traducciones en lista."/>
+        <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:paddingTop="20dp"
+          android:paddingBottom="20dp"
+          android:layout_below="@id/pref_view_title"
+          android:layout_centerHorizontal="true"
+          >
+          <ImageButton
+            android:id="@+id/btn_slow_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+          <TextView
+            android:id="@+id/scroll_speed"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            style="@style/RegMedium"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+          <ImageButton
+            android:id="@+id/btn_speed_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_arrow_up_black_24dp"/>
+        </LinearLayout>
+      </RelativeLayout>
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/dark_blue"
+        />
+
+    </LinearLayout>
+  </ScrollView>
+
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="9dp"
+    android:paddingRight="5dp"
+    android:layout_marginTop="15dp">
+    <Button
+      android:id="@+id/btn_ok"
+      style="@style/RegMedium"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/confirmar"
+      android:layout_weight="1">
+    </Button>
+
+    <Button
+      android:id="@+id/btn_cancel"
+      style="@style/RegMedium"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/cancelar"
+      android:layout_weight="1">
+    </Button>
+
+  </LinearLayout>
+
+</LinearLayout>

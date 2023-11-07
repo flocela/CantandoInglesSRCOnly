@@ -1,0 +1,31 @@
+<resources>
+	<style name="RegSmall">
+    <item name="android:textSize">20sp</item>
+  </style>
+	<style name="RegMedium">
+    <item name="android:textSize">22sp</item>
+  </style>
+  <style name="RegLargeMedium">
+    <item name="android:textSize">24sp</item>
+  </style>
+  <style name="ItalicMedium">
+    <item name="android:textSize">24sp</item>
+    <item name="android:textStyle">italic</item>
+  </style>
+  <style name="ItalicLarge">
+    <item name="android:textSize">24sp</item>
+    <item name="android:textStyle">italic</item>
+  </style>
+<!--  
+	<style name="AppBaseTheme" parent="android:Theme.Light">		
+	</style>
+
+	<style name="AppTheme" parent="AppBaseTheme">
+		<item name="android:actionBarStyle">@style/MyActionBar</item>
+	</style>
+  <style name="MyActionBar"
+    parent="AppBaseTheme">
+    <item name="android:background">#000</item>
+  </style>
+	-->
+</resources>
