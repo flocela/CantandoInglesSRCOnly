@@ -4,6 +4,8 @@ Cantando Inglés teaches English to Spanish speakers through song. It plays a so
 
 www.appsbyflo.com holds the songs' lyrics and audio files in an AWS bucket.
 
-This repository, CantandoInglesSRCOnly, holds the Android source code files only. It is basically to show my java coding skills. This project has manual testing as can be found in manualTesting.pdf.
+This repository, CantandoInglesSRCOnly, holds the Android source code files only. It is basically to show my java coding skills.
+
+Manual testing can be found in manualTesting.pdf. The project is not 100 percent covered by automatic tests, but Android Activity Instrumentation and unit testing can be found at src/anroidTest/java/com/eebolf/test.
 
  
