@@ -1,6 +1,6 @@
 ## About
 
-Cantando Inglés teaches English to Spanish speakers through song. It plays a song while displaying the lyrics in a list. The list scrolls to the music and always showing the current word. The user can pause the song to see a Spanish translation along with a an explanation about the word's context. There are 20 songs that the user can download from www.appsbyflo.com.
+Cantando Inglés teaches English to Spanish speakers through song. It plays a song while displaying the lyrics in a list. The list scrolls to the music while always shows the current word. The user can pause the song to see a Spanish translation along with an explanation about the word's context. There are 20 songs that the user can download from www.appsbyflo.com.
 
 www.appsbyflo.com holds the songs' lyrics and audio files in an AWS bucket.
 
