@@ -28,9 +28,7 @@ public class DeleteAllSongTest extends ActivityInstrumentationTestCase2<DeleterS
   @SmallTest
   public void testShowExistingSongs () throws Exception{
     int initialCount = listActivity.getListView().getCount();
-    if (initialCount < 1) {
-
-    }
+    assertTrue(initialCount > 0);
 
     listActivity.clearSongs();
     Thread.currentThread().sleep(2000);
