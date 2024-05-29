@@ -1,8 +1,10 @@
-## About
+I've discontinued Cantando Inglés, unfortunately it is no longer on the Google Play Store.
 
-I've discontinued Cantando Inglés, unfortunately it is no longer on the Google Play Store. Below is the demo video.
+However, you can still see the demo video below.
 
 [![n-cRzeZw9Bk](https://img.youtube.com/vi/n-cRzeZw9Bk/0.jpg)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://www.youtube.com/watch?v=n-cRzeZw9Bk))
+
+## Intro
 
 Cantando Inglés teaches English to Spanish speakers through song. It plays a song while displaying the lyrics in a list. The list scrolls to the music while always showing the current word. The user can pause the song to see a word's Spanish translation and an explanation about the word's context. There are 20 songs that the user can download from www.appsbyflo.com.
 
