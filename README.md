@@ -3,7 +3,6 @@
 Unfortunately, I've discontinued Cantando Inglés and it is no longer on the Google Play Store.
 
 Click below to see the demo video on youtube.
-
 [![n-cRzeZw9Bk](https://img.youtube.com/vi/n-cRzeZw9Bk/0.jpg)](https://www.youtube.com/watch?v=n-cRzeZw9Bk&t=24s)
 
 ## Intro
