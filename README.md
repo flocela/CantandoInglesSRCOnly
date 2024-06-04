@@ -14,6 +14,6 @@ w<span>ww.appsbyflo.com holds the songs' lyrics and audio files in an AWS bucket
 
 This repository, CantandoInglesSRCOnly, holds the Android source code files only. It is basically to show my java coding skills.
 
-Manual testing can be found in [manualTesting.pdf](manualTesting.pdf). Instrumentation tests can be found at [src/androidTest/java/com/eebolf/tests](src/androidTest/java/com/eebolf/tests).
+Manual testing can be found in [manualTesting.pdf](manualTesting.pdf). The project is not fully covered by automatic testing, but ActivityInstrumentation and TestCase testing can be found at [src/androidTest/java/com/eebolf/tests](src/androidTest/java/com/eebolf/tests).
 
  
