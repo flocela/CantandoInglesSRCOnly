@@ -1,6 +1,6 @@
 ## Cantando Inglés
 
-Unfortunately, I've discontinued Cantando Inglés and it is no longer on the Google Play Store.
+Unfortunately, I've discontinued appsbyflo.com and Cantando Inglés. Cantando Inglés is no longer on the Google Play Store.
 
 Click below to see the demo video on [youtube](https://www.youtube.com/watch?v=n-cRzeZw9Bk&t=24s).
 
